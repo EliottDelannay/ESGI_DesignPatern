@@ -13,3 +13,6 @@
 ConstructeurLiasseVéhicule est composé de liasse.
 
 le pattern permet aux client de construires les objets qui va compléter ces données. La construction se fait à partir de méthodes qui va instancier les objets et les remplirs. La complétion de l'objet ClientVéhicule se fait graduellement en descendant dans les classe qui le constituent. Ex : **ClientVéhicule** construit un **vendeur** qui construit un **ConstructeurLiasseVéhicule** qui va construire une **liasse**.
+
+![FactoryMethod](FactoryMethod.png)
+Le pattern FactoryMethode consiste à avoir des méthodes construisant un objet.
