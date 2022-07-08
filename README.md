@@ -1,5 +1,8 @@
 # ESGI_DesignPattern
 
+# Pattern de conception
+Les patterns de conception répondent à des problématiques lié à la POO
+
 ![AbstractFactory](AbstractFactory.png)
 <br>
 
