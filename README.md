@@ -45,3 +45,8 @@ L'héritage se base sur une classe fille qui récupère des méthodes et des att
 
 ![Composite](Composite.png)
 <br> Pattern offrant un cadre de conception d'une composition dont on ne connait pas la profondeur.
+
+![Decorator](Decorator.png)
+<br> Permet l'ajout dynamique de fonctionnalité supplèmentaire à un objet sans modifier l'interface.
+
+ 
