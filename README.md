@@ -19,3 +19,6 @@ le pattern permet aux client de construires les objets qui va compléter ces don
 
 ![FactoryMethod](FactoryMethod.png)
 <br> Le pattern FactoryMethode consiste à avoir des méthodes construisant un objet.
+
+<br> **Singleton** 
+<br> Le pattern Singleton consiste à n'avoir qu'une seule instance d'un objet, cela permet d'économiser de la mémoire.
