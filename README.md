@@ -56,3 +56,6 @@ Ils organisent les interactions en renseignant la "le flux de controle" et trait
 
 ![Chain of Reponsability](Responsability.png)
 <br> Le but est de construire une chaine d'objets de manière à ce que si un objet de la chaine ne peut répondre à une requête, il puisse la passer à un "successeur' et ainsi de suite jusqu'à ce que l'un des objets puissent y répondre.
+
+![Command](Command.png)
+<br> Transforme une requête en objet ceci facilite les opérations relatives à la requête.
