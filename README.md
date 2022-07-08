@@ -41,6 +41,7 @@ L'héritage se base sur une classe fille qui récupère des méthodes et des att
 <br> Le but de ce pattern est de convertir l'interface d'une classe donnée en une interface attendue par l'utilisateur
 
 ![Bridge](Bridge.png)
-<br> Sépare le comportement de l'implémentation de l'interface et l'implémentation de l'objet
+<br> Sépare le comportement de l'implémentation de l'interface et l'implémentation de l'objet.
 
-
+![Composite](Composite.png)
+<br> Pattern offrant un cadre de conception d'une composition dont on ne connait pas la profondeur.
