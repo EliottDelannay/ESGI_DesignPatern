@@ -49,4 +49,7 @@ L'héritage se base sur une classe fille qui récupère des méthodes et des att
 ![Decorator](Decorator.png)
 <br> Permet l'ajout dynamique de fonctionnalité supplèmentaire à un objet sans modifier l'interface.
 
- 
+# Pattern comportementaux
+
+<br> Les patterns de comportement distribuent les algorithmes/traitements entre les objets. <br>
+Ils organisent les interactions en renseignant la "le flux de controle" et traitement au sein d'un système d'objets.
