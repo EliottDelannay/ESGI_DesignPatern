@@ -53,3 +53,6 @@ L'héritage se base sur une classe fille qui récupère des méthodes et des att
 
 <br> Les patterns de comportement distribuent les algorithmes/traitements entre les objets. <br>
 Ils organisent les interactions en renseignant la "le flux de controle" et traitement au sein d'un système d'objets.
+
+![Chain of Reponsability](Responsability.png)
+<br> Le but est de construire une chaine d'objets de manière à ce que si un objet de la chaine ne peut répondre à une requête, il puisse la passer à un "successeur' et ainsi de suite jusqu'à ce que l'un des objets puissent y répondre.
