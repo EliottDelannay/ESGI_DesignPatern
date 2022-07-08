@@ -26,3 +26,13 @@ le pattern permet aux client de construires les objets qui va compléter ces don
 <br> **Prototype**
 <br> Le pattern permet de créer des objets à partir d'autre objets appelé prototype avec une méthode clone qui retour un objet identique
 
+# Pattern de structure ou de structuration
+
+Les patterns de structuration permettent l'indépendance de l'interface d'un objet et son implémentation. <br>
+Les interfaces permettent d'encapsuler la composition des objets. <br>
+
+Exercice : composition vs héritage en C# <br>
+
+La composition se base sur un classe qui récupère des méthodes overrides qui ont un traitement proche avec entrées/sorties proches. <br>
+
+L'héritage se base sur une classe fille qui récupère des méthodes et des attributs d'une classe mère et qui en rajoute pour ce spécialiser. <br>
