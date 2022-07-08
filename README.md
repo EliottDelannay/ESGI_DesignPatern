@@ -22,3 +22,7 @@ le pattern permet aux client de construires les objets qui va compléter ces don
 
 <br> **Singleton** 
 <br> Le pattern Singleton consiste à n'avoir qu'une seule instance d'un objet, cela permet d'économiser de la mémoire.
+
+<br> **Prototype**
+<br> Le pattern permet de créer des objets à partir d'autre objets appelé prototype avec une méthode clone qui retour un objet identique
+
