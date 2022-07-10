@@ -32,33 +32,19 @@ public class Npc : Personnage
     public string Faction { get; set; }
 }
 
-public class Pc : Personnage
-{
-    //Class fille héritant de personnage
-    public Pc(string guildName)
-    {
-        this.guildName = guildName;
-    }
-
-    public Personnage clone()
-    {
-        return (Pc)this.MemberwiseClone();
-    }
-
-    public string guildName { get; set; }
-}
-
 public class main
 {
     //création d'un objet de type npc
+    //changement de valeur de faction
     //création d'une copie de npc 
+    //affichage des deux objets
     public static void Main()
     {
         Npc Npc = new Npc("test");
+        Npc.Faction = "champion";
         Npc Npc2 = (Npc)Npc.clone();
-        Console.WriteLine(Npc);
-        Console.WriteLine(Npc2);
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine(Npc.Faction);
+        Console.WriteLine(Npc2.Faction);
     }
     
 }
